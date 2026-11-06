@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOFNOVA — Web Development & IT Solutions</title>
+<meta name="description" content="TOFNOVA builds fast, secure, responsive websites — custom development, WordPress, Shopify, eCommerce, speed optimization and IT solutions.">
+<meta property="og:title" content="TOFNOVA — Web Development & IT Solutions">
+<meta property="og:description" content="We turn ideas into fast, secure, high-performance websites.">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+</style>
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <div class="loader-word"><span>T</span><span>O</span><span>F</span><span class="grad-text">N</span><span class="grad-text">O</span><span class="grad-text">V</span><span class="grad-text">A</span></div>
+    <div class="loader-bar"><i></i></div>
+  </div>
+</div>
+
+<div class="cursor"></div><div class="cursor-dot"></div>
+<div class="progress"></div>
+
+<!-- Reusable logo symbol -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a9e"/><stop offset="1" stop-color="#0a1a4f"/></linearGradient>
+    <linearGradient id="lg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1e5eff"/><stop offset="1" stop-color="#22b8ff"/></linearGradient>
+    <symbol id="tlogo" viewBox="0 0 120 100">
+      <rect x="6" y="10" width="7" height="7" fill="#22b8ff"/><rect x="16" y="4" width="6" height="6" fill="#1e5eff"/><rect x="14" y="20" width="6" height="6" fill="#1e3a9e"/>
+      <path d="M30 22 H112 L104 40 H80 L62 92 H42 L60 40 H22 Z" fill="url(#lg1)"/>
+      <path d="M14 78 C 30 98, 100 80, 114 34 C 116 26, 108 20, 96 22 C 108 24, 110 30, 106 38 C 92 70, 40 88, 14 78 Z" fill="url(#lg2)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- Nav -->
+<header class="nav" id="nav">
+  <div class="container">
+    <a href="#home" class="logo"><img src="images/logo.png" alt="TOFNOVA logo" style="width:44px;height:auto">TOFNOVA</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-primary magnetic">Get a Quote</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-bg"><div class="grid-bg"></div><div class="blob b1"></div><div class="blob b2"></div></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="badge h-fade"><b>NEW</b> Web Development & IT Solutions</div>
+      <h1>
+        <span class="line"><span>We Build</span></span>
+        <span class="line"><span class="grad-text">Digital Experiences</span></span>
+        <span class="line"><span>That Grow Business.</span></span>
+      </h1>
+      <p class="lead h-fade">TOFNOVA crafts responsive, secure and high-performance websites — from custom builds and WordPress to Shopify stores and full IT support.</p>
+      <div class="hero-cta h-fade">
+        <a href="#contact" class="btn btn-primary magnetic">Start Your Project
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        <a href="#services" class="btn btn-ghost magnetic">Explore Services</a>
+      </div>
+      <div class="hero-stats h-fade">
+        <div><h3><span class="count" data-to="150">0</span>+</h3><p>Projects Delivered</p></div>
+        <div><h3><span class="count" data-to="98">0</span>%</h3><p>Client Satisfaction</p></div>
+        <div><h3>24/7</h3><p>Technical Support</p></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orb"></div><div class="orb o2"></div><div class="orb-ring"></div>
+      <img class="hero-logo" src="images/logo.png" alt="TOFNOVA">
+      <div class="float-card fc1"><i>⚡</i>Speed Optimized</div>
+      <div class="float-card fc2"><i>🛡</i>Secure & Reliable</div>
+      <div class="float-card fc3"><i class="fa-solid fa-desktop"></i>Fully Responsive</div>
+    </div>
+  </div>
+  <div class="scroll-hint"><div class="mouse"></div>SCROLL</div>
+</section>
+
+<!-- Marquee -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Custom Websites</span><span>WordPress</span><span>Shopify</span><span>eCommerce</span><span>UI Design</span><span>Speed Optimization</span><span>IT Solutions</span>
+    <span>Custom Websites</span><span>WordPress</span><span>Shopify</span><span>eCommerce</span><span>UI Design</span><span>Speed Optimization</span><span>IT Solutions</span>
+  </div>
+</div>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-text">
+      <span class="eyebrow">About TOFNOVA</span>
+      <h2 class="reveal-text" style="font-size:clamp(28px,3.6vw,44px);font-weight:800;margin-bottom:28px">We combine technology, creativity and reliable support to turn ideas into practical digital solutions.</h2>
+      <p class="fade-up">TOFNOVA is a professional web development and IT solutions company dedicated to helping businesses build a strong digital presence. We focus on responsive, secure, high-performance websites that help businesses grow online.</p>
+      <div class="about-points">
+        <div class="point fade-up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Custom-built solutions</div>
+        <div class="point fade-up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Clean, scalable code</div>
+        <div class="point fade-up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>SEO-ready from day one</div>
+        <div class="point fade-up"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Long-term support</div>
+      </div>
+    </div>
+    <div class="mv-grid">
+      <div class="mv-card slide-left"><h4><em>01</em>Our Mission</h4><p>Empower businesses of every size with fast, secure and beautifully crafted websites that convert visitors into customers.</p></div>
+      <div class="mv-card slide-left"><h4><em>02</em>Our Vision</h4><p>To become a trusted digital partner known for quality engineering, honest communication and measurable results.</p></div>
+      <div class="mv-card slide-left"><h4><em>03</em>Our Values</h4><p>Quality first, transparency always, continuous learning, and genuine care for every client's success.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">What We Do</span>
+      <h2>Services built for <span class="grad-text">real growth</span></h2>
+      <p>End-to-end web and IT services — from the first wireframe to ongoing maintenance.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service tilt"><span class="num">01</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div><h3>Custom Website Development</h3><p>Tailor-made websites engineered around your business goals and users.</p><a href="#contact" class="more">Inquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+      <div class="service tilt"><span class="num">02</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M3 9h18M3 15h18M12 2a15 15 0 010 20"/></svg></div><h3>WordPress Development</h3><p>Custom themes, plugins and Elementor builds that are easy to manage.</p><a href="#contact" class="more">Inquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+      <div class="service tilt"><span class="num">03</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0"/></svg></div><h3>Shopify & eCommerce</h3><p>High-converting online stores with smooth checkout and inventory flow.</p><a href="#contact" class="more">Inquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+      <div class="service tilt"><span class="num">04</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 19l7-7 3 3-7 7-3-3zM18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5zM2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></div><h3>Website Design</h3><p>Modern, original UI/UX that reflects your brand and builds trust.</p><a href="#contact" class="more">Inquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+      <div class="service tilt"><span class="num">05</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3>Speed Optimization</h3><p>Core Web Vitals tuning, caching and image optimization for blazing speed.</p><a href="#contact" class="more">Inquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+      <div class="service tilt"><span class="num">06</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div><h3>Maintenance & Support</h3><p>Updates, backups, security monitoring and fast technical support.</p><a href="#contact" class="more">Inquire <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- Why -->
+<section class="why">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Why Choose Us</span>
+      <h2>Your success is <span class="grad-text">our standard</span></h2>
+      <p>We don't just ship websites — we build reliable digital foundations that keep working for you.</p>
+      <a href="#contact" class="btn btn-primary magnetic" style="margin-top:30px">Let's Talk</a>
+    </div>
+    <div class="why-list">
+      <div class="why-item"><div class="n">01</div><div><h4>Performance First</h4><p>Lightweight, optimized builds that load fast on every device and network.</p></div></div>
+      <div class="why-item"><div class="n">02</div><div><h4>Security Built-In</h4><p>Hardened logins, secure forms and best practices against XSS, CSRF and SQL injection.</p></div></div>
+      <div class="why-item"><div class="n">03</div><div><h4>Pixel-Perfect Responsive</h4><p>Every layout tested on desktop, tablet, Android and iPhone.</p></div></div>
+      <div class="why-item"><div class="n">04</div><div><h4>Transparent Communication</h4><p>Clear timelines, regular updates and no hidden surprises.</p></div></div>
+      <div class="why-item"><div class="n">05</div><div><h4>Long-Term Partnership</h4><p>Ongoing maintenance and support long after launch day.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Counters -->
+<div class="counters">
+  <div class="container">
+    <div class="counter-box">
+      <div class="counter"><h3><span class="count" data-to="150">0</span>+</h3><p>Projects Completed</p></div>
+      <div class="counter"><h3><span class="count" data-to="120">0</span>+</h3><p>Happy Clients</p></div>
+      <div class="counter"><h3><span class="count" data-to="10">0</span>+</h3><p>Core Services</p></div>
+      <div class="counter"><h3><span class="count" data-to="5">0</span>+</h3><p>Years of Experience</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- Process -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">How We Work</span>
+      <h2>A simple, proven <span class="grad-text">process</span></h2>
+    </div>
+    <div class="process-wrap">
+      <div class="process-line"><i></i></div>
+      <div class="process-grid">
+        <div class="step"><div class="dot">01</div><h4>Discovery</h4><p>Understand your goals, audience and requirements.</p></div>
+        <div class="step"><div class="dot">02</div><h4>Planning</h4><p>Sitemap, wireframes and technical roadmap.</p></div>
+        <div class="step"><div class="dot">03</div><h4>Design</h4><p>Original, on-brand UI with modern components.</p></div>
+        <div class="step"><div class="dot">04</div><h4>Development</h4><p>Clean, secure and optimized code, fully tested.</p></div>
+        <div class="step"><div class="dot">05</div><h4>Launch & Support</h4><p>Deployment, handover and ongoing care.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tech -->
+<section class="tech">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Technologies</span>
+      <h2>Tools we <span class="grad-text">master</span></h2>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-item"><b style="color:#e34f26">5</b><span>HTML5</span></div>
+      <div class="tech-item"><b style="color:#1572b6">3</b><span>CSS3</span></div>
+      <div class="tech-item"><b style="color:#f7df1e">JS</b><span>JavaScript</span></div>
+      <div class="tech-item"><b style="color:#8892bf">PHP</b><span>PHP</span></div>
+      <div class="tech-item"><b style="color:#00a3e0">SQL</b><span>MySQL</span></div>
+      <div class="tech-item"><b style="color:#5aa9e6">WP</b><span>WordPress</span></div>
+      <div class="tech-item"><b style="color:#96bf48">S</b><span>Shopify</span></div>
+      <div class="tech-item"><b style="color:#61dafb">⚛</b><span>React</span></div>
+      <div class="tech-item"><b style="color:#68a063">N</b><span>Node.js</span></div>
+      <div class="tech-item"><b style="color:#d64ed8">E</b><span>Elementor</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Meet The Team</span>
+      <h2>The minds behind <span class="grad-text">TOFNOVA</span></h2>
+    </div>
+    <div class="team-grid">
+      <div class="member">
+        <div class="photo"><img src="images/member-1.jpg" alt="Tofan — TOFNOVA" loading="lazy"></div>
+        <div class="info"><h4>Tofan</h4><p>Founder · Lead Developer</p></div>
+      </div>
+      <div class="member">
+        <div class="photo"><img src="images/member-2.jpg" alt="Nahidul — TOFNOVA" loading="lazy"></div>
+        <div class="info"><h4>Nahidul</h4><p>Co-Founder · Web Developer</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials" style="background:var(--ink-2)">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Testimonials</span>
+      <h2>What clients <span class="grad-text">say</span></h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi"><div class="stars">★★★★★</div><p>“TOFNOVA rebuilt our website from scratch. It's faster, cleaner and we're getting far more inquiries than before.”</p><div class="who"><div class="av">R</div><div><h5>Business Owner</h5><span>Retail Brand</span></div></div></div>
+      <div class="testi"><div class="stars">★★★★★</div><p>“Our Shopify store launched on time and checkout works perfectly. Communication was clear throughout.”</p><div class="who"><div class="av">S</div><div><h5>Store Manager</h5><span>eCommerce</span></div></div></div>
+      <div class="testi"><div class="stars">★★★★★</div><p>“Page speed went from slow to green across the board. Their maintenance support is quick and reliable.”</p><div class="who"><div class="av">M</div><div><h5>Marketing Lead</h5><span>Service Company</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-info">
+      <span class="eyebrow">Contact Us</span>
+      <h2>Have a project in mind? <span class="grad-text">Let's build it.</span></h2>
+      <p>Tell us about your idea — we'll get back to you with a clear plan and estimate.</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/tofnova" target="_blank" rel="noopener" aria-label="Facebook" class="magnetic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9V7c0-.8.5-1 1-1h2V2h-3c-3 0-4 2-4 4.5V9H8v4h2v9h4v-9h3l1-4z"/></svg></a>
+        <a href="https://x.com/TofNova" target="_blank" rel="noopener" aria-label="X" class="magnetic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.2 2h3.4l-7.4 8.5L23 22h-6.8l-5.3-7-6.1 7H1.4l7.9-9L1 2h7l4.8 6.4zm-1.2 18h1.9L7.1 4H5.1z"/></svg></a>
+        <a href="https://www.linkedin.com/in/tofnova/" target="_blank" rel="noopener" aria-label="LinkedIn" class="magnetic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V21h-4z"/></svg></a>
+        <a href="https://www.tumblr.com/tofnova" target="_blank" rel="noopener" aria-label="Tumblr" class="magnetic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.5 22c-3 0-5.2-1.5-5.2-5.2V11H6.6V7.9C9.6 7.1 10.9 4.5 11 2h3.1v4.9h3.6V11h-3.6v5c0 1.5.8 2 2 2h1.7v4z"/></svg></a>
+        <a href="https://www.reddit.com/u/tofnova/" target="_blank" rel="noopener" aria-label="Reddit" class="magnetic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.1a2.2 2.2 0 00-3.7-1.6 10.7 10.7 0 00-5.8-1.8l1-4.6 3.2.7a1.6 1.6 0 101.7-1.6 1.6 1.6 0 00-1.5 1l-3.6-.8a.4.4 0 00-.5.3l-1.1 5a10.8 10.8 0 00-5.9 1.8A2.2 2.2 0 103.3 14a4.3 4.3 0 000 .7c0 3.5 4 6.3 8.8 6.3s8.8-2.8 8.8-6.3a4.3 4.3 0 000-.7 2.2 2.2 0 001.1-1.9zM7 13.7a1.6 1.6 0 113.2 0 1.6 1.6 0 01-3.2 0zm8.9 4.2a5.8 5.8 0 01-3.9 1.2 5.8 5.8 0 01-3.9-1.2.4.4 0 01.6-.6 5 5 0 003.3 1 5 5 0 003.3-1 .4.4 0 01.6.6zm-.3-2.6a1.6 1.6 0 111.6-1.6 1.6 1.6 0 01-1.6 1.6z"/></svg></a>
+        <a href="https://m.twitch.tv/tofnova/home" target="_blank" rel="noopener" aria-label="Twitch" class="magnetic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 2L2.5 6v14h5v3h3l3-3h4l5-5V2zm16 12l-3 3h-5l-3 3v-3H5V4h15zM16 7h2v6h-2zm-5 0h2v6h-2z"/></svg></a>
+        <a href="https://sites.google.com/view/tofnova" target="_blank" rel="noopener" aria-label="Website" class="magnetic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/></svg></a>
+      </div>
+    </div>
+
+    <form id="contactForm" novalidate>
+      <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
+      <div class="row">
+        <div class="field"><label for="name">Full Name *</label><input id="name" name="name" required placeholder="John Doe"></div>
+        <div class="field"><label for="email">Email Address *</label><input id="email" type="email" name="email" required placeholder="you@company.com"></div>
+      </div>
+      <div class="row">
+        <div class="field"><label for="phone">Phone (optional)</label><input id="phone" name="phone" placeholder="+880"></div>
+        <div class="field"><label for="service">Service *</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option>Custom Website Development</option><option>WordPress Development</option><option>Shopify Development</option>
+            <option>eCommerce Solutions</option><option>Website Design</option><option>Speed Optimization</option>
+            <option>Website Maintenance</option><option>IT Solutions / Support</option>
+          </select></div>
+      </div>
+      <div class="row">
+        <div class="field"><label for="budget">Budget (optional)</label>
+          <select id="budget" name="budget"><option value="">Select budget</option><option>Under $500</option><option>$500 – $1,500</option><option>$1,500 – $5,000</option><option>$5,000+</option></select></div>
+        <div class="field"><label for="subject">Subject *</label><input id="subject" name="subject" required placeholder="New website"></div>
+      </div>
+      <div class="field"><label for="message">Message *</label><textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea></div>
+      <button type="submit" class="btn btn-primary magnetic" style="width:100%;justify-content:center">Send Message
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+      <div class="form-msg" id="formMsg" role="status"></div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div><a href="#home" class="logo"><img src="images/logo.png" alt="TOFNOVA logo" style="width:44px;height:auto">TOFNOVA</a><p>Professional web development and IT solutions that help businesses grow online.</p></div>
+      <div><h5>Company</h5><ul><li><a href="#about">About Us</a></li><li><a href="#process">Our Process</a></li><li><a href="#team">Team</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div><h5>Services</h5><ul><li><a href="#services">Custom Websites</a></li><li><a href="#services">WordPress</a></li><li><a href="#services">Shopify</a></li><li><a href="#services">Speed Optimization</a></li></ul></div>
+      <div><h5>Follow</h5><ul><li><a href="https://www.facebook.com/tofnova" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.linkedin.com/in/tofnova/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://x.com/TofNova" target="_blank" rel="noopener">X (Twitter)</a></li><li><a href="https://m.twitch.tv/tofnova/home" target="_blank" rel="noopener">Twitch</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="yr"></span> TOFNOVA. All rights reserved.</span><span>Web Development & IT Solutions</span></div>
+    <div class="big-word">TOFNOVA</div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<!-- GSAP + ScrollTrigger + Lenis smooth scroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script class="app.js"></script>
+</body>
+</html>
